@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <Factura>
+    <Numero_Factura>3</Numero_Factura>
+    <FechaFactura>07-11-2016</FechaFactura>
+    <Restaurante>Piccola Stella</Restaurante>
+    <NombreCliente>jjj</NombreCliente>
+    <Detalles>Especial con foto 2,Ensalada de frutas</Detalles>
+    <DuracionMesa>00:01:05</DuracionMesa>
+    <HoraEntrada_HoraSalida>18:02 a 18:03</HoraEntrada_HoraSalida>
+    <MontoFactura>7510</MontoFactura>
+  </Factura>
+</NewDataSet>

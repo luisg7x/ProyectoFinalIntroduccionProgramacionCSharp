@@ -1,0 +1,974 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{56FD2836-B3FA-43E4-B121-D7466EC20112}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Proyecto_Programación_IV</RootNamespace>
+    <AssemblyName>Proyecto Programación IV</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomMessageBox.cs" />
+    <Compile Include="FrmAgregarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarClientes.Designer.cs">
+      <DependentUpon>FrmAgregarClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarClienteRestauranteBarra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarClienteRestauranteBarra.Designer.cs">
+      <DependentUpon>FrmAgregarClienteRestauranteBarra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCierreCajaRestaurante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCierreCajaRestaurante.Designer.cs">
+      <DependentUpon>FrmCierreCajaRestaurante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAperturaCajaRestaurante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAperturaCajaRestaurante.Designer.cs">
+      <DependentUpon>FrmAperturaCajaRestaurante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarUnidadesMedida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarUnidadesMedida.Designer.cs">
+      <DependentUpon>FrmAgregarUnidadesMedida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarConsecutivos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarConsecutivos.Designer.cs">
+      <DependentUpon>FrmAgregarConsecutivos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarRol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarRol.Designer.cs">
+      <DependentUpon>FrmAgregarRol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarPais.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarPais.Designer.cs">
+      <DependentUpon>FrmAgregarPais.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarUsuarios.Designer.cs">
+      <DependentUpon>FrmAgregarUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarProveedor.Designer.cs">
+      <DependentUpon>FrmAgregarProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarUtencilios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarUtencilios.Designer.cs">
+      <DependentUpon>FrmAgregarUtencilios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarTecnologia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarTecnologia.Designer.cs">
+      <DependentUpon>FrmAgregarTecnologia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarLimpieza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarLimpieza.Designer.cs">
+      <DependentUpon>FrmAgregarLimpieza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarComestibles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarComestibles.Designer.cs">
+      <DependentUpon>FrmAgregarComestibles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarEmpleado.Designer.cs">
+      <DependentUpon>FrmAgregarEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarEspecial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarEspecial.Designer.cs">
+      <DependentUpon>FrmAgregarEspecial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarMarcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarMarcas.Designer.cs">
+      <DependentUpon>FrmAgregarMarcas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarDesechable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarDesechable.Designer.cs">
+      <DependentUpon>FrmAgregarDesechable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarPuestos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarPuestos.Designer.cs">
+      <DependentUpon>FrmAgregarPuestos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarMesas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarMesas.Designer.cs">
+      <DependentUpon>FrmAgregarMesas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarVinos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarVinos.Designer.cs">
+      <DependentUpon>FrmAgregarVinos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarLicor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarLicor.Designer.cs">
+      <DependentUpon>FrmAgregarLicor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarBebidaGaseosa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarBebidaGaseosa.Designer.cs">
+      <DependentUpon>FrmAgregarBebidaGaseosa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarBebidaHelada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarBebidaHelada.Designer.cs">
+      <DependentUpon>FrmAgregarBebidaHelada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarBebidaCaliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarBebidaCaliente.Designer.cs">
+      <DependentUpon>FrmAgregarBebidaCaliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarBuffet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarBuffet.Designer.cs">
+      <DependentUpon>FrmAgregarBuffet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaCaja.Designer.cs">
+      <DependentUpon>FrmListaCaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportesFactura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportesFactura.Designer.cs">
+      <DependentUpon>FrmReportesFactura.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportesClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportesClientes.Designer.cs">
+      <DependentUpon>FrmReportesClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaClientesBarra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaClientesBarra.Designer.cs">
+      <DependentUpon>FrmListaClientesBarra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaClientesRestaurante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaClientesRestaurante.Designer.cs">
+      <DependentUpon>FrmListaClientesRestaurante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaUnidadesMedida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaUnidadesMedida.Designer.cs">
+      <DependentUpon>FrmListaUnidadesMedida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaRoles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaRoles.Designer.cs">
+      <DependentUpon>FrmListaRoles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaPaises.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaPaises.Designer.cs">
+      <DependentUpon>FrmListaPaises.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaUsuarios.Designer.cs">
+      <DependentUpon>FrmListaUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmNottediFuoco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmNottediFuoco.Designer.cs">
+      <DependentUpon>FrmNottediFuoco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTurinAnivo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTurinAnivo.Designer.cs">
+      <DependentUpon>FrmTurinAnivo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPiccolaStella.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPiccolaStella.Designer.cs">
+      <DependentUpon>FrmPiccolaStella.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSeguridad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSeguridad.Designer.cs">
+      <DependentUpon>FrmSeguridad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaConsecutivos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaConsecutivos.Designer.cs">
+      <DependentUpon>FrmListaConsecutivos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaProveedores.Designer.cs">
+      <DependentUpon>FrmListaProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaBitacora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaBitacora.Designer.cs">
+      <DependentUpon>FrmListaBitacora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaUtencilios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaUtencilios.Designer.cs">
+      <DependentUpon>FrmListaUtencilios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaTecnologia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaTecnologia.Designer.cs">
+      <DependentUpon>FrmListaTecnologia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaLimpieza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaLimpieza.Designer.cs">
+      <DependentUpon>FrmListaLimpieza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaDesechables.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaDesechables.Designer.cs">
+      <DependentUpon>FrmListaDesechables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaComestibles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaComestibles.Designer.cs">
+      <DependentUpon>FrmListaComestibles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductos.Designer.cs">
+      <DependentUpon>FrmProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmBebidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmBebidas.Designer.cs">
+      <DependentUpon>FrmBebidas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaMarcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaMarcas.Designer.cs">
+      <DependentUpon>FrmListaMarcas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmReportes.Designer.cs">
+      <DependentUpon>FrmReportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProveedores.Designer.cs">
+      <DependentUpon>FrmProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEspeciales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEspeciales.Designer.cs">
+      <DependentUpon>FrmEspeciales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgregarRestaurante.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgregarRestaurante.Designer.cs">
+      <DependentUpon>FrmAgregarRestaurante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAyudaSistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAyudaSistema.Designer.cs">
+      <DependentUpon>FrmAyudaSistema.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaClientes.Designer.cs">
+      <DependentUpon>FrmListaClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaPuestos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaPuestos.Designer.cs">
+      <DependentUpon>FrmListaPuestos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaEspecialidades.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaEspecialidades.Designer.cs">
+      <DependentUpon>FrmListaEspecialidades.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaEmpleados.Designer.cs">
+      <DependentUpon>FrmListaEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaMesas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaMesas.Designer.cs">
+      <DependentUpon>FrmListaMesas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmListaRestaurantes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmListaRestaurantes.Designer.cs">
+      <DependentUpon>FrmListaRestaurantes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAdministracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAdministracion.Designer.cs">
+      <DependentUpon>FrmAdministracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMessageYesNo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMessageYesNo.Designer.cs">
+      <DependentUpon>FrmMessageYesNo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMessageOk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMessageOk.Designer.cs">
+      <DependentUpon>FrmMessageOk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAgregarClientes.resx">
+      <DependentUpon>FrmAgregarClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarClienteRestauranteBarra.resx">
+      <DependentUpon>FrmAgregarClienteRestauranteBarra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCierreCajaRestaurante.resx">
+      <DependentUpon>FrmCierreCajaRestaurante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAperturaCajaRestaurante.resx">
+      <DependentUpon>FrmAperturaCajaRestaurante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarUnidadesMedida.resx">
+      <DependentUpon>FrmAgregarUnidadesMedida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarConsecutivos.resx">
+      <DependentUpon>FrmAgregarConsecutivos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarRol.resx">
+      <DependentUpon>FrmAgregarRol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarPais.resx">
+      <DependentUpon>FrmAgregarPais.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarUsuarios.resx">
+      <DependentUpon>FrmAgregarUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarProveedor.resx">
+      <DependentUpon>FrmAgregarProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarUtencilios.resx">
+      <DependentUpon>FrmAgregarUtencilios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarTecnologia.resx">
+      <DependentUpon>FrmAgregarTecnologia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarLimpieza.resx">
+      <DependentUpon>FrmAgregarLimpieza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarComestibles.resx">
+      <DependentUpon>FrmAgregarComestibles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarEmpleado.resx">
+      <DependentUpon>FrmAgregarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarEspecial.resx">
+      <DependentUpon>FrmAgregarEspecial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarMarcas.resx">
+      <DependentUpon>FrmAgregarMarcas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarDesechable.resx">
+      <DependentUpon>FrmAgregarDesechable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarPuestos.resx">
+      <DependentUpon>FrmAgregarPuestos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarMesas.resx">
+      <DependentUpon>FrmAgregarMesas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarVinos.resx">
+      <DependentUpon>FrmAgregarVinos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarLicor.resx">
+      <DependentUpon>FrmAgregarLicor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarBebidaGaseosa.resx">
+      <DependentUpon>FrmAgregarBebidaGaseosa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarBebidaHelada.resx">
+      <DependentUpon>FrmAgregarBebidaHelada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarBebidaCaliente.resx">
+      <DependentUpon>FrmAgregarBebidaCaliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarBuffet.resx">
+      <DependentUpon>FrmAgregarBuffet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaCaja.resx">
+      <DependentUpon>FrmListaCaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportesFactura.resx">
+      <DependentUpon>FrmReportesFactura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportesClientes.resx">
+      <DependentUpon>FrmReportesClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaClientesBarra.resx">
+      <DependentUpon>FrmListaClientesBarra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaClientesRestaurante.resx">
+      <DependentUpon>FrmListaClientesRestaurante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaUnidadesMedida.resx">
+      <DependentUpon>FrmListaUnidadesMedida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaRoles.resx">
+      <DependentUpon>FrmListaRoles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaPaises.resx">
+      <DependentUpon>FrmListaPaises.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaUsuarios.resx">
+      <DependentUpon>FrmListaUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmNottediFuoco.resx">
+      <DependentUpon>FrmNottediFuoco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTurinAnivo.resx">
+      <DependentUpon>FrmTurinAnivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPiccolaStella.resx">
+      <DependentUpon>FrmPiccolaStella.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSeguridad.es-US.resx">
+      <DependentUpon>FrmSeguridad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSeguridad.resx">
+      <DependentUpon>FrmSeguridad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaConsecutivos.resx">
+      <DependentUpon>FrmListaConsecutivos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaProveedores.resx">
+      <DependentUpon>FrmListaProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaBitacora.resx">
+      <DependentUpon>FrmListaBitacora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaUtencilios.resx">
+      <DependentUpon>FrmListaUtencilios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaTecnologia.resx">
+      <DependentUpon>FrmListaTecnologia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaLimpieza.resx">
+      <DependentUpon>FrmListaLimpieza.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaDesechables.resx">
+      <DependentUpon>FrmListaDesechables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaComestibles.resx">
+      <DependentUpon>FrmListaComestibles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductos.es-US.resx">
+      <DependentUpon>FrmProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductos.resx">
+      <DependentUpon>FrmProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBebidas.es-US.resx">
+      <DependentUpon>FrmBebidas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmBebidas.resx">
+      <DependentUpon>FrmBebidas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaMarcas.resx">
+      <DependentUpon>FrmListaMarcas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportes.es-US.resx">
+      <DependentUpon>FrmReportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmReportes.resx">
+      <DependentUpon>FrmReportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProveedores.es-US.resx">
+      <DependentUpon>FrmProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProveedores.resx">
+      <DependentUpon>FrmProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEspeciales.es-US.resx">
+      <DependentUpon>FrmEspeciales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEspeciales.resx">
+      <DependentUpon>FrmEspeciales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgregarRestaurante.resx">
+      <DependentUpon>FrmAgregarRestaurante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAyudaSistema.resx">
+      <DependentUpon>FrmAyudaSistema.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaClientes.resx">
+      <DependentUpon>FrmListaClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaPuestos.resx">
+      <DependentUpon>FrmListaPuestos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaEspecialidades.resx">
+      <DependentUpon>FrmListaEspecialidades.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaEmpleados.resx">
+      <DependentUpon>FrmListaEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaMesas.resx">
+      <DependentUpon>FrmListaMesas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmListaRestaurantes.resx">
+      <DependentUpon>FrmListaRestaurantes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdministracion.es-US.resx">
+      <DependentUpon>FrmAdministracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAdministracion.resx">
+      <DependentUpon>FrmAdministracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.es-US.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMessageYesNo.resx">
+      <DependentUpon>FrmMessageYesNo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMessageOk.resx">
+      <DependentUpon>FrmMessageOk.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Logica_Proyecto\Logica_Proyecto.csproj">
+      <Project>{af7e732a-8e58-44ca-983a-660259c22012}</Project>
+      <Name>Logica_Proyecto</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_done_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checkmark-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Warning Shield-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Information-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Question Mark-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Key-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Key-120.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lock-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Restaurant-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\User Group Man Man-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Interstate Truck-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Administrative Tools-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Administrative Tools-961.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Report Card-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Previous-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Previous-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Next-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fine Print-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wine Glass-961.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wine Bottle-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plus Math-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plus-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minus Math -96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close Window-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Broom-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Broom-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Available Updates-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Broom-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Broom-481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close Window-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minus Math -48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minus Math -24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plus Math-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Broom-241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checkmark-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fine Print-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Next-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete-241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minus Math -241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cafe-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Winter-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Soda Bottle-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Paste Special-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Table-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Table-962.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Employee Card-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stack-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Package-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bag Brand-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\New Product Filled-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kitchen-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Plastic-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Computer Filled-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Interstate Truck-961.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Numbered List-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Flag Filled -96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Report Card-961.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Forgot Password-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Globe-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Money Bag-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Org Unit-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Courthouse-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checkmark-241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Table-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Table-60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Do Not Disturb-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Services-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Grid-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L-52.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\L-521.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Horizontal Line-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Horizontal Line-96 - copia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Toilet-26.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chair-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chair-241.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print-481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Columns-96.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Columns-48.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

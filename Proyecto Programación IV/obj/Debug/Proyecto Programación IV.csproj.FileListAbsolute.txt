@@ -1,0 +1,175 @@
+c:\users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\bin\Debug\Proyecto Programación IV.exe.config
+c:\users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto Programación IV.csprojResolveAssemblyReference.cache
+c:\users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmLogin.resources
+c:\users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.Properties.Resources.resources
+c:\users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto Programación IV.csproj.GenerateResource.Cache
+c:\users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\bin\Debug\Proyecto Programación IV.exe
+c:\users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\bin\Debug\Proyecto Programación IV.pdb
+c:\users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\bin\Debug\Logica_Proyecto.dll
+c:\users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\bin\Debug\Logica_Proyecto.pdb
+c:\users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto Programación IV.exe
+c:\users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto Programación IV.pdb
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmPrincipal.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAyudaSistema.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmLogin.es-US.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\bin\Debug\es-US\Proyecto Programación IV.resources.dll
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\es-US\Proyecto Programación IV.resources.dll
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmMessageYesNo.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmCargaPB.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaRestaurantes.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarRestaurante.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAdministracion.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAdministracion.es-US.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarBuffet.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmEspeciales.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmEspeciales.es-US.resources
+C:\Users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarBebidaCaliente.resources
+C:\Users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmBebidas.resources
+C:\Users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmBebidas.es-US.resources
+C:\Users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarBebidaHelada.resources
+C:\Users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarBebidaGaseosa.resources
+C:\Users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarLicor.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarVinos.resources
+C:\Users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarEspecial.resources
+C:\Users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaEspecialidades.resources
+C:\Users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarMesas.resources
+C:\Users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaMesas.resources
+C:\Users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarEmpleado.resources
+C:\Users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaEmpleados.resources
+C:\Users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarPuestos.resources
+C:\Users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaPuestos.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaClientes.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarMarcas.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaMarcas.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmProveedores.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmProveedores.es-US.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarComestibles.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaComestibles.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmProductos.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmProductos.es-US.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarDesechable.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaDesechables.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarLimpieza.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaLimpieza.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaTecnologia.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarTecnologia.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarUtencilios.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaUtencilios.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarProveedor.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaProveedores.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarConsecutivos.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaConsecutivos.resources
+C:\Users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmReportes.resources
+C:\Users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmReportes.es-US.resources
+C:\Users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaBitacora.resources
+C:\Users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarUsuarios.resources
+C:\Users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaUsuarios.resources
+C:\Users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmSeguridad.resources
+C:\Users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmSeguridad.es-US.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarPais.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaPaises.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarRol.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaCaja.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaRoles.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarUnidadesMedida.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaUnidadesMedida.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAperturaCajaRestaurante.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmPiccolaStella.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarClientes.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaClientesRestaurante.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaClientesBarra.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarClienteRestauranteBarra.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmCierreCajaRestaurante.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmTurinAnivo.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmNottediFuoco.resources
+F:\Progra IV\P4 PRO\AVANCE 17\Proyecto Programación IV\Proyecto Programación IV\bin\Debug\Proyecto Programación IV.exe.config
+F:\Progra IV\P4 PRO\AVANCE 17\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto Programación IV.exe
+F:\Progra IV\P4 PRO\AVANCE 17\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto Programación IV.pdb
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmReportesClientes.resources
+C:\Users\luisg\Documents\Visual Studio 2013\Projects\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmReportesFactura.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\bin\Debug\Proyecto Programación IV.exe.config
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto Programación IV.exe
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto Programación IV.pdb
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\bin\Debug\Proyecto Programación IV.exe
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\bin\Debug\Proyecto Programación IV.pdb
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\bin\Debug\es-US\Proyecto Programación IV.resources.dll
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\bin\Debug\Logica_Proyecto.dll
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\bin\Debug\Logica_Proyecto.pdb
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto Programación IV.csprojResolveAssemblyReference.cache
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarClientes.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarClienteRestauranteBarra.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmCierreCajaRestaurante.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAperturaCajaRestaurante.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarUnidadesMedida.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarConsecutivos.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarRol.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarPais.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarUsuarios.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarProveedor.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarUtencilios.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarTecnologia.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarLimpieza.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarComestibles.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarEmpleado.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarEspecial.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarMarcas.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarDesechable.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarPuestos.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarMesas.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarVinos.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarLicor.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarBebidaGaseosa.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarBebidaHelada.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarBebidaCaliente.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarBuffet.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaCaja.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmReportesFactura.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmReportesClientes.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaClientesBarra.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaClientesRestaurante.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaUnidadesMedida.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaRoles.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaPaises.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaUsuarios.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmNottediFuoco.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmTurinAnivo.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmPiccolaStella.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmSeguridad.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaConsecutivos.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaProveedores.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaBitacora.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaUtencilios.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaTecnologia.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaLimpieza.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaDesechables.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaComestibles.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmProductos.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmBebidas.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaMarcas.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmReportes.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmProveedores.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmEspeciales.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAgregarRestaurante.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAyudaSistema.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaClientes.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaPuestos.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaEspecialidades.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaEmpleados.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaMesas.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmListaRestaurantes.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAdministracion.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmLogin.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmMessageYesNo.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmCargaPB.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmPrincipal.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.Properties.Resources.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmSeguridad.es-US.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmProductos.es-US.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmBebidas.es-US.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmReportes.es-US.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmProveedores.es-US.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmEspeciales.es-US.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmAdministracion.es-US.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto_Programación_IV.FrmLogin.es-US.resources
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\Proyecto Programación IV.csproj.GenerateResource.Cache
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Proyecto Programación IV\obj\Debug\es-US\Proyecto Programación IV.resources.dll

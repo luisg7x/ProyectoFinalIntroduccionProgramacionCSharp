@@ -1,0 +1,198 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using Logica_Proyecto;
+using System.Data.SqlClient;
+using System.Security.Cryptography;
+
+namespace Proyecto_Programación_IV
+{
+    public partial class FrmListaConsecutivos : Form
+    {
+  
+        BaseDeDatos bd = new BaseDeDatos();
+        string[] rols = new string[6];
+        public FrmListaConsecutivos()
+        {
+            InitializeComponent();
+            actualizarDataGrid("select CodigoConsecutivo,TipoConsecutivo,DescripcionConsecutivo,ValorConsecutivo,ContienePrefijoConsecutivo,PrefijoConsecutivo from Consecutivos");
+            dataGridView1.Columns[0].Width = 90;
+            dataGridView1.Columns[1].Width = 130;
+            dataGridView1.Columns[2].Width = 130;
+            dataGridView1.Columns[3].Width = 100;
+            dataGridView1.Columns[4].Width = 100;
+            dataGridView1.Columns[5].Width = 100;
+
+            
+        }
+
+        private void ButtonCerrar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void buttonActualizar_Click(object sender, EventArgs e)
+        {
+            actualizarDataGrid("select CodigoConsecutivo,TipoConsecutivo,DescripcionConsecutivo,ValorConsecutivo,ContienePrefijoConsecutivo,PrefijoConsecutivo from Consecutivos");
+            autoCompletar();
+        }
+
+        private void actualizarDataGrid(string query)
+        {   //TABLA CON LOS DATOS ENCRIPTADOS
+            DataTable dt = new DataTable();
+            Querys clogiga = new Querys();
+            //TABLA QUEALACENARA LOS DATOS DESENCRIPTADOS
+            DataTable modelo = new DataTable();
+            //LENA LA TABLA DT CON LOS DATOS
+            dt = bd.SelectDataTable(query).Copy();
+            //LOS 2 FOREACH PASAN Y CONVIERTEN LA INFORMACION DESENCRIPTADA A LA TABLA MODELO
+            foreach (DataColumn col in dt.Columns)
+            {
+               
+                modelo.Columns.Add(col.ToString());
+            }
+            foreach (DataRow row in dt.Rows)
+            {
+
+                if (string.IsNullOrEmpty(row[5].ToString()))
+                {
+                    modelo.Rows.Add(clogiga.desencriptacion(row[0].ToString()), clogiga.desencriptacion(row[1].ToString()), clogiga.desencriptacion(row[2].ToString()), clogiga.desencriptacion(row[3].ToString()), clogiga.desencriptacion(row[4].ToString()), row[5].ToString());
+                }
+                else
+                {
+                    modelo.Rows.Add(clogiga.desencriptacion(row[0].ToString()), clogiga.desencriptacion(row[1].ToString()), clogiga.desencriptacion(row[2].ToString()), clogiga.desencriptacion(row[3].ToString()), clogiga.desencriptacion(row[4].ToString()), clogiga.desencriptacion(row[5].ToString()));
+                }
+
+                
+            }
+            //MUESTRA LA TABLA MODELO QUE ES LA QUE ESTA DESECRIPTADA
+            dataGridView1.DataSource = modelo;
+
+          
+        }
+           
+
+        private void dataGridView1_CellValueChanged(object sender, DataGridViewCellEventArgs e)
+        {
+            Querys clogiga = new Querys();
+            string id = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
+                                                                                                                                                                                                                                       
+            bd.executecommand("update Consecutivos set TipoConsecutivo='" + clogiga.encriptacion(dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString()) + "',DescripcionConsecutivo='" + clogiga.encriptacion(dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString()) + "',ValorConsecutivo='" + clogiga.encriptacion(dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString()) + "',ContienePrefijoConsecutivo='" + clogiga.encriptacion(dataGridView1.Rows[e.RowIndex].Cells[4].Value.ToString())  + "',PrefijoConsecutivo='" + clogiga.encriptacion(dataGridView1.Rows[e.RowIndex].Cells[5].Value.ToString()) + "'WHERE CodigoConsecutivo='" + clogiga.encriptacion(id) + "'");
+            Bitacora("Actualizo Consecutivo", "Actualizo Consecutivo");
+            clogiga.actualizarTablaConsecutivos();
+        }
+
+        private void buttonLimpiar_Click(object sender, EventArgs e)
+        {
+            Acciones clogiga = new Acciones();
+            clogiga.limpiar(this);
+            
+        }
+
+        private void buttonBuscar_Click(object sender, EventArgs e)
+        {
+            Querys clogiga = new Querys();
+             
+            if (!string.IsNullOrEmpty(TextboxCodigo.Text) && string.IsNullOrEmpty(TextboxDescripcion.Text)) actualizarDataGrid("Select CodigoConsecutivo,TipoConsecutivo,DescripcionConsecutivo,ValorConsecutivo,ContienePrefijoConsecutivo,PrefijoConsecutivo from Consecutivos where CodigoConsecutivo= '" + clogiga.encriptacion(TextboxCodigo.Text) + "'");
+            if (!string.IsNullOrEmpty(TextboxDescripcion.Text) && string.IsNullOrEmpty(TextboxCodigo.Text)) actualizarDataGrid("Select CodigoConsecutivo,TipoConsecutivo,DescripcionConsecutivo,ValorConsecutivo,ContienePrefijoConsecutivo,PrefijoConsecutivo from Consecutivos where DescripcionConsecutivo= '" + clogiga.encriptacion(TextboxDescripcion.Text) + "'");
+            if (!string.IsNullOrEmpty(TextboxDescripcion.Text) && !string.IsNullOrEmpty(TextboxCodigo.Text)) actualizarDataGrid("Select CodigoConsecutivo,TipoConsecutivo,DescripcionConsecutivo,ValorConsecutivo,ContienePrefijoConsecutivo,PrefijoConsecutivo from Consecutivos DescripcionConsecutivo= '" + clogiga.encriptacion(TextboxDescripcion.Text) + "' and CodigoConsecutivo='" + clogiga.encriptacion(TextboxCodigo.Text) + "'");
+            if (string.IsNullOrEmpty(TextboxDescripcion.Text) && string.IsNullOrEmpty(TextboxCodigo.Text)) CustomMessageBox.ShowMessage("Inserte datos para poder realizar la busqueda", "Busqueda", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            if (dataGridView1.Rows.Count == 1) CustomMessageBox.ShowMessage("No se encontro ningun valor", "Busqueda", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            
+        }
+
+   
+        private void FrmListaRestaurantes_Load(object sender, EventArgs e)
+        {
+            autoCompletar();
+        }
+
+        private void autoCompletar()
+        {      
+            bd.autocompletar("select DescripcionConsecutivo from Consecutivos", "DescripcionConsecutivo", 1, TextboxDescripcion);
+            bd.autocompletar("select CodigoConsecutivo from Consecutivos", "CodigoConsecutivo", 1, TextboxCodigo);
+        }
+
+        private void buttonMinimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void buttonExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void buttonAgregar_Click(object sender, EventArgs e)
+        {
+            FrmAgregarConsecutivos frm = new FrmAgregarConsecutivos();
+            frm.privilegios(rols);
+            frm.Show();
+        }
+
+        private void buttonEliminar_Click(object sender, EventArgs e)
+        {
+            Querys clogiga = new Querys();
+            if (dataGridView1.SelectedRows.Count == 0)
+            {
+                CustomMessageBox.ShowMessage("Error al eliminar no ha seleccionado una fila\n\nConsejo: \n• Haga click en el simbolo  ►  que esta en la tabla para \nseleccionar la fila y poder eliminarla", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            foreach (DataGridViewRow row in dataGridView1.SelectedRows) 
+            {   
+                string id = row.Cells[0].Value.ToString();
+                bd.executecommand("delete Consecutivos WHERE CodigoConsecutivo='" + clogiga.encriptacion(id) + "'");
+                actualizarDataGrid("select CodigoConsecutivo,TipoConsecutivo,DescripcionConsecutivo,ValorConsecutivo,ContienePrefijoConsecutivo,PrefijoConsecutivo from Consecutivos");
+                clogiga.actualizarTablaConsecutivos();
+                Bitacora("Borro Consecutivo", "Borro Consecutivo");
+                CustomMessageBox.ShowMessage("Se ha elimando correctamente ", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        
+            }
+       
+            
+        }
+
+        private void Bitacora(string descripcion, string detalle)
+        {
+            Querys cLogica_BD = new Querys();
+
+            cLogica_BD.fecha = DateTime.Now.ToString("dd-MM-yyyy HH:mm:ss");
+            cLogica_BD.usuario = rols[5];
+            cLogica_BD.descripcion = descripcion;
+            cLogica_BD.detalle = detalle;
+
+
+
+            if (cLogica_BD.agregar_bitacora() == true)
+            {
+            }
+            else
+            {
+                CustomMessageBox.ShowMessage("Ocurrio un problema al registra en la bitacora", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+
+
+
+
+
+        public void privilegios(string[] cadena)
+        {
+            rols[0] = cadena[0];
+            rols[1] = cadena[1];
+            rols[2] = cadena[2];
+            rols[3] = cadena[3];
+            rols[4] = cadena[4];
+            rols[5] = cadena[5];
+        }
+
+        
+    }
+}

@@ -1,0 +1,10 @@
+c:\users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Logica_Proyecto\bin\Debug\Logica_Proyecto.dll
+c:\users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Logica_Proyecto\bin\Debug\Logica_Proyecto.pdb
+c:\users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Logica_Proyecto\obj\Debug\Logica_Proyecto.csprojResolveAssemblyReference.cache
+c:\users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Logica_Proyecto\obj\Debug\Logica_Proyecto.dll
+c:\users\luisg\documents\visual studio 2013\Projects\Proyecto Programación IV\Logica_Proyecto\obj\Debug\Logica_Proyecto.pdb
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Logica_Proyecto\bin\Debug\Logica_Proyecto.dll
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Logica_Proyecto\bin\Debug\Logica_Proyecto.pdb
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Logica_Proyecto\obj\Debug\Logica_Proyecto.csprojResolveAssemblyReference.cache
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Logica_Proyecto\obj\Debug\Logica_Proyecto.dll
+F:\Progra IV\P4 PRO\AVANCE 20\Proyecto Programación IV\Logica_Proyecto\obj\Debug\Logica_Proyecto.pdb

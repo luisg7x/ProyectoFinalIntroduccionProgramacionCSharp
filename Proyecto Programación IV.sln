@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proyecto Programación IV", "Proyecto Programación IV\Proyecto Programación IV.csproj", "{56FD2836-B3FA-43E4-B121-D7466EC20112}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logica_Proyecto", "Logica_Proyecto\Logica_Proyecto.csproj", "{AF7E732A-8E58-44CA-983A-660259C22012}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56FD2836-B3FA-43E4-B121-D7466EC20112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56FD2836-B3FA-43E4-B121-D7466EC20112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56FD2836-B3FA-43E4-B121-D7466EC20112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56FD2836-B3FA-43E4-B121-D7466EC20112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF7E732A-8E58-44CA-983A-660259C22012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF7E732A-8E58-44CA-983A-660259C22012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF7E732A-8E58-44CA-983A-660259C22012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF7E732A-8E58-44CA-983A-660259C22012}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
